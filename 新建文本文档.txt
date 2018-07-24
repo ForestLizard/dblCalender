@@ -1,0 +1,35 @@
+from lizheng :
+1、往返日期
+2、城市
+3、日历tab类型
+
+
+任务：
+基于calender父组件 封装双日历calender
+
+
+注意：
+1、行程去-来最大365天；
+2、住宿入住到离开最大28天
+
+
+目标日历双日历样式：
+https://m.ctrip.com/webapp/vacations/diytour/dpindex
+
+
+原来日历：
+https://m.ctrip.com/webapp/vacations/idiytour/diyindex
+Lzk19930814
+
+
+日历显示几个月，从哪天到哪天，由今天的日期来定
+
+			goCldStartTime
+去程日历 今天2018 7-23  2018-7-1 ———2019-7-31        13个月
+
+返程日历 从去(2018-7-26)开始 2018-7-1 ———2019-8-30    14个月
+
+
+
+
+
